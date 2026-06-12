@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Catalogo de diseños</title>
+</head>
+<body>
+     <div class="contenedor">
+     	<header class="cabecera">
+     		<div class="logo"><img src="../imagenes/logo.jpg"></div>
+     		<div class="banner"><video autoplay muted loop src="../video/animacion3.mp4"></video></div>
+     	</header>
+     	<nav class="menu">
+            <div class="hamburguesa" id="hamburguesa">
+                <span class="barra"></span>
+                <span class="barra"></span>
+                <span class="barra"></span>
+            </div>
+
+     		<ul class="menulista" id="menulista">
+     			<li class="menuitem"><a href="../index.html" class="menulink">Inicio</a></li>
+     			<li class="menuitem"><a href="../html/Catalogo de diseños.html" class="menulink">Catalogo de diseños</a></li>
+     			<li class="menuitem"><a href="../html/Tipos de materiales.html" class="menulink">Tipos de materiales</a></li>
+     			<li class="menuitem"><a href="../html/index.html" class="menulink">Accesorios adicionales</a></li>
+     	</nav>
+
+     	<main class="principal"> 
+     		<section class="seccion1">
+     			<img src="../imagenes/catalogodiseños.jpeg">
+     		</section>
+     			</main>
+     			<div class="minis">
+     			<img src="../imagenes/diseñospersonalizados.jpeg">
+     			<h2 class="uno">DISEÑOS PERSONALIZADOS</h2>
+     			<p>
+
+Creamos uniformes únicos que reflejan la identidad de tu equipo. Personaliza colores, nombres, números y logotipos para obtener un diseño exclusivo que destaque dentro y fuera de la cancha.
+</p>
+     		</div>
+     		<div class="minis2">
+     			<img src="../imagenes/estiloprofesional.jpeg">
+     			<h2 class="uno">ESTILO PROFESIONAL</h2>
+     			<p> 
+
+Nuestros diseños combinan creatividad y modernidad para ofrecer una imagen impactante. Cada detalle está pensado para transmitir confianza, presencia y espíritu competitivo.</p>
+     		</div>
+     		<div class="minis3">
+     			<img src="../imagenes/hechosparaganar.jpeg">
+     			<h2 class="uno">CALIDAD PREMIUM</h2>
+     			<p>
+
+Cada uniforme se fabrica con materiales seleccionados para ofrecer el mejor equilibrio entre comodidad, resistencia y rendimiento deportivo.</p>
+     		</div>
+     	
+
+     		<footer class="pie">
+   <div>Contacto:</div> 
+
+<div>Redes sociales:
+* Facebook
+* Instagram
+* TikTok
+</div>
+<div> Horario: Lunes a sábado ( 9:00 AM – 7:00 PM) Alexi e Ivan
+</div>
+<div>* WhatsApp: +52 951 594 4689</div>
+    <div> @personalizacion.basquetbol<div> Ubicación: Oaxaca de Juárez</div>
+<div>
+</div>
+
+<div>“Domina la cancha con estilo solo con nosotros” </div>
+     		</footer>
+     	</div>
+             
+
+
+</body>
+</html>
+<script>
+    const hamburguesa = document.getElementById("hamburguesa");
+    const menulista = document.getElementById("menulista");
+    hamburguesa.addEventListener("click",() =>{
+        hamburguesa.classList.toggle("active");
+        menulista.classList.toggle("active");
+    });
+
+</script>
